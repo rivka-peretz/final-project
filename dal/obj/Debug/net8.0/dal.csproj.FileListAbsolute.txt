@@ -1,0 +1,15 @@
+H:\פרויקט סטאז\TeamTaskManagement\dal\bin\Debug\net8.0\dal.deps.json
+H:\פרויקט סטאז\TeamTaskManagement\dal\bin\Debug\net8.0\dal.runtimeconfig.json
+H:\פרויקט סטאז\TeamTaskManagement\dal\bin\Debug\net8.0\dal.dll
+H:\פרויקט סטאז\TeamTaskManagement\dal\bin\Debug\net8.0\dal.pdb
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.csproj.AssemblyReference.cache
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.AssemblyInfoInputs.cache
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.AssemblyInfo.cs
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.csproj.CoreCompileInputs.cache
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.sourcelink.json
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.dll
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\refint\dal.dll
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.pdb
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\dal.genruntimeconfig.cache
+H:\פרויקט סטאז\TeamTaskManagement\dal\obj\Debug\net8.0\ref\dal.dll

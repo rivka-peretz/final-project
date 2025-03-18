@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\teamtaskmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\teamtaskmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\models\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\models\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F244E9E1-78DB-4F86-A268-10A91B5F4D59}|Server\\Server.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\server\\controller\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F244E9E1-78DB-4F86-A268-10A91B5F4D59}|Server\\Server.csproj|solutionrelative:server\\controller\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,6 +87,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TeamTaskManagement",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\TeamTaskManagement.csproj",
+              "RelativeDocumentMoniker": "TeamTaskManagement\\TeamTaskManagement.csproj",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\TeamTaskManagement.csproj",
+              "RelativeToolTip": "TeamTaskManagement\\TeamTaskManagement.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T14:08:16.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Worker.cs",
+              "RelativeDocumentMoniker": "TeamTaskManagement\\models\\Worker.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Worker.cs",
+              "RelativeToolTip": "TeamTaskManagement\\models\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:09:26.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Task.cs",
+              "RelativeDocumentMoniker": "TeamTaskManagement\\models\\Task.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Task.cs",
+              "RelativeToolTip": "TeamTaskManagement\\models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:09:19.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Project.cs",
+              "RelativeDocumentMoniker": "TeamTaskManagement\\models\\Project.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Project.cs",
+              "RelativeToolTip": "TeamTaskManagement\\models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:09:16.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbclass.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\dbclass.cs",
+              "RelativeDocumentMoniker": "TeamTaskManagement\\models\\dbclass.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\dbclass.cs",
+              "RelativeToolTip": "TeamTaskManagement\\models\\dbclass.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAuwA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:07:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WorkersController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Controller\\WorkersController.cs",
               "RelativeDocumentMoniker": "Server\\Controller\\WorkersController.cs",
@@ -79,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "dal.csproj",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\dal.csproj",
               "RelativeDocumentMoniker": "dal\\dal.csproj",
@@ -87,11 +172,12 @@
               "RelativeToolTip": "dal\\dal.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T08:58:36.105Z"
+              "WhenOpened": "2025-03-07T08:58:36.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "bl.csproj",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\bl.csproj",
               "RelativeDocumentMoniker": "bl\\bl.csproj",
@@ -99,11 +185,12 @@
               "RelativeToolTip": "bl\\bl.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T08:55:29.765Z"
+              "WhenOpened": "2025-03-07T08:55:29.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Tasks.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Models\\Tasks.cs",
               "RelativeDocumentMoniker": "bl\\Models\\Tasks.cs",
@@ -116,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TeamLeader.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Models\\TeamLeader.cs",
               "RelativeDocumentMoniker": "bl\\Models\\TeamLeader.cs",
@@ -129,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Worker.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Models\\Worker.cs",
               "RelativeDocumentMoniker": "bl\\Models\\Worker.cs",
@@ -142,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\ProjectsController.cs",
               "RelativeDocumentMoniker": "WebApii\\Controller\\ProjectsController.cs",
@@ -153,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "WorkerController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\WorkerController.cs",
               "RelativeDocumentMoniker": "WebApii\\Controller\\WorkerController.cs",
@@ -164,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TasksController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\TasksController.cs",
               "RelativeDocumentMoniker": "WebApii\\Controller\\TasksController.cs",
@@ -175,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "TeamLeaderController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\TeamLeaderController.cs",
               "RelativeDocumentMoniker": "WebApii\\Controller\\TeamLeaderController.cs",
@@ -186,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Class1.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Class1.cs",
               "RelativeDocumentMoniker": "dal\\Class1.cs",
@@ -199,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Projects.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Models\\Projects.cs",
               "RelativeDocumentMoniker": "bl\\Models\\Projects.cs",
@@ -212,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\Program.cs",
               "RelativeDocumentMoniker": "TeamTaskManagement\\Program.cs",
