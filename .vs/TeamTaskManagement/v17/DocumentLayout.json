@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Server\\Controller\\WorkersController.cs",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Controller\\WorkersController.cs",
               "RelativeToolTip": "Server\\Controller\\WorkersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T09:28:03.425Z",
               "EditorCaption": ""
@@ -111,7 +111,8 @@
               "RelativeToolTip": "bl\\Models\\Tasks.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:59:04.869Z"
+              "WhenOpened": "2025-03-07T07:59:04.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,7 +137,8 @@
               "RelativeToolTip": "bl\\Models\\Worker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:38:12.411Z"
+              "WhenOpened": "2025-03-07T07:38:12.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -157,7 +159,6 @@
               "RelativeDocumentMoniker": "WebApii\\Controller\\WorkerController.cs",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\WorkerController.cs",
               "RelativeToolTip": "WebApii\\Controller\\WorkerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T07:31:32.245Z"
             },
@@ -169,7 +170,6 @@
               "RelativeDocumentMoniker": "WebApii\\Controller\\TasksController.cs",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\TasksController.cs",
               "RelativeToolTip": "WebApii\\Controller\\TasksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T07:31:12.803Z"
             },
@@ -181,7 +181,6 @@
               "RelativeDocumentMoniker": "WebApii\\Controller\\TeamLeaderController.cs",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\WebApii\\Controller\\TeamLeaderController.cs",
               "RelativeToolTip": "WebApii\\Controller\\TeamLeaderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T07:30:33.015Z"
             },
@@ -195,7 +194,8 @@
               "RelativeToolTip": "dal\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:08:41.063Z"
+              "WhenOpened": "2025-03-07T07:08:41.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -207,7 +207,8 @@
               "RelativeToolTip": "bl\\Models\\Projects.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:08:18.766Z"
+              "WhenOpened": "2025-03-07T07:08:18.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -219,7 +220,8 @@
               "RelativeToolTip": "TeamTaskManagement\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:04:02.498Z"
+              "WhenOpened": "2025-03-07T07:04:02.498Z",
+              "EditorCaption": ""
             }
           ]
         }
