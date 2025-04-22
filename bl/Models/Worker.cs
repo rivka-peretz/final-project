@@ -8,5 +8,10 @@ namespace bl.Models
 {
     internal class Worker
     {
+        public int Id { get; set; }
+        public string Name { get; set; } = null!;
+        public string Email { get; set; } = null!;
+
+
     }
 }

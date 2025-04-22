@@ -10,3 +10,9 @@ H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\bl.dll
 H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\refint\bl.dll
 H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\bl.pdb
 H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\ref\bl.dll
+H:\פרויקט סטאז\TeamTaskManagement\bl\bin\Debug\net8.0\dal.dll
+H:\פרויקט סטאז\TeamTaskManagement\bl\bin\Debug\net8.0\dal.pdb
+H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\bl.csproj.AssemblyReference.cache
+H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\bl.csproj.Up2Date
+H:\פרויקט סטאז\TeamTaskManagement\bl\bin\Debug\net8.0\bl.runtimeconfig.json
+H:\פרויקט סטאז\TeamTaskManagement\bl\obj\Debug\net8.0\bl.genruntimeconfig.cache
