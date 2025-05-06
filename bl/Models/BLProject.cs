@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using bl.Models;
 
-namespace dal.Api
+namespace bl.Models
 {
-    internal interface IWorkerDal
+    internal class BLProject
     {
-        public void AddWorker(Worker worker);
     }
 }

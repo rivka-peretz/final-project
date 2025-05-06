@@ -7,33 +7,54 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using dal.Api;
+using dal.Services;
+using bl.Api;
 
 namespace bl.Services
 {
-    internal class WorkerBl
+    public class WorkerBl:IBlWorkerService
+
     {
-        dbClass context;
-      //IWorkerDal iWorkerDal;
-        //public bool CheckingWhetherAnEmployeeExists(int id)
-        //{
-        //    Worker worker = context.Workers.Find(w => w.Id == id);  
-        //    if(worker == null) return false;
-        //    return true;
-        //}
-        public bool AddWorker(int id, string name,int password,string email, string StatusWorker)
+        private IWorkerDalService _iworkerDal;
+        public bool AddWorker(IWorkerBl worker, string AdministratorPassword)
         {
-            if (id == null || id.ToString().Length>9) return false;
-            if (name == null) return false;
-            if(password ==null)return false;    
-            if (email == null || !IsValidEmail(email)) return false;
-           //הוספה ובדיקה אם הוא קיים
+            if (_iworkerDal.CheckingWhetherAnEmployeeExists(worker.Password) != null) return false;
+            if (!_iworkerDal.CheckingWhetherTheEmployeeIsAmanager(AdministratorPassword)) return false;
+            if (worker.Id == null || worker.Id.ToString().Length>9) return false;
+            if (worker.Name == null) return false;
+            if(worker.Password ==null)return false;    
+            if (worker.Email == null || !IsValidEmail(worker.Email)) return false;
+            Worker worker1 = new Worker();
+            worker1.Email = worker.Email;
+            worker1.Password = worker.Password;
+            worker1.Id = worker.Id;
+            worker1.Name = worker.Name;
+            worker1.StatusWorker = worker.StatusWorker;
+            _iworkerDal.AddWorker(worker1);
             return true ;
         }
-
-        private bool IsValidEmail(string email)
+        public bool RemoveWorker(int id, string AdministratorPassword)
+        {
+            if (!_iworkerDal.CheckingWhetherTheEmployeeIsAmanager(AdministratorPassword)) return false;
+            Worker worker = _iworkerDal.CheckingByIDWhetherTheEmployeeExists(id);
+            if (worker == null)return false;
+            _iworkerDal.RemoveWorker(id);
+            return true;
+        }
+        public BLWorker GetWorker(int id)
+        {
+         Worker w =  _iworkerDal.CheckingByIDWhetherTheEmployeeExists(id);
+            return new(w.Id, w.Name, w.Email, w.Password, w.StatusWorker);  
+        }
+        public bool IsValidEmail(string email)
         {
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, emailPattern);
+        }
+
+        public bool AddWorker(BLWorker worker, string AdministratorPassword)
+        {
+            throw new NotImplementedException();
         }
     }
 

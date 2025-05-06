@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bl.Models
+namespace bl.Services
 {
-    internal class Worker
+    internal class ProjectBl
     {
         public int Id { get; set; }
-        public string Name { get; set; } = null!;
-        public string Email { get; set; } = null!;
-
-
+        public string? NameProject { get; set; }
+        public DateOnly SubmissionDate { get; set; }
     }
 }

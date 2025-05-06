@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bl.Models
+namespace bl.Api
 {
-    internal class TeamLeader
+    internal class IBLProjectService
     {
+
     }
 }
