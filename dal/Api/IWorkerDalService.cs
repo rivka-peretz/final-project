@@ -12,7 +12,9 @@ namespace dal.Api
         public void AddWorker(Worker worker);
         public Worker CheckingWhetherAnEmployeeExists(string password);
         public bool CheckingWhetherTheEmployeeIsAmanager(string password);
+        public bool AreThereAnyEmployeesInTheSystem();
+        public void Addmanagement(Worker worker);
         public Worker CheckingByIDWhetherTheEmployeeExists(int id);
-        public void RemoveWorker(int id);
+        public void RemoveWorker(Worker worker);
     }
 }

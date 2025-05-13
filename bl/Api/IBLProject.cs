@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bl.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,6 @@ namespace bl.Api
 
         public DateOnly SubmissionDate { get; set; }
 
-        
+        public List<BLTask> Tasks { get; set; }
     }
 }

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\bl\\services\\workerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|solutionrelative:bl\\services\\workerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\dal\\services\\workerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|solutionrelative:dal\\services\\workerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\dal\\api\\iworkerdalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|solutionrelative:dal\\api\\iworkerdalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F244E9E1-78DB-4F86-A268-10A91B5F4D59}|Server\\Server.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\server\\controller\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F244E9E1-78DB-4F86-A268-10A91B5F4D59}|Server\\Server.csproj|solutionrelative:server\\controller\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\bl\\models\\blworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|solutionrelative:bl\\models\\blworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\bl\\services\\workerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|solutionrelative:bl\\services\\workerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F244E9E1-78DB-4F86-A268-10A91B5F4D59}|Server\\Server.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\teamtaskmanagement\\teamtaskmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6C8BA09D-67D7-45DD-8A4C-6784DB709CD1}|TeamTaskManagement\\TeamTaskManagement.csproj|solutionrelative:teamtaskmanagement\\teamtaskmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\dal\\api\\iworkerdalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|solutionrelative:dal\\api\\iworkerdalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\dal\\services\\workerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD12D4B4-564E-42D5-9B42-436D9C1DD63C}|dal\\dal.csproj|solutionrelative:dal\\services\\workerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E80E12-4B4F-4DAF-9865-4C06E9490ADE}|bl\\bl.csproj|h:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\teamtaskmanagement\\bl\\models\\blproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,37 +138,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBLProjectService.cs",
-              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBLProjectService.cs",
-              "RelativeDocumentMoniker": "bl\\Api\\IBLProjectService.cs",
-              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBLProjectService.cs",
-              "RelativeToolTip": "bl\\Api\\IBLProjectService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:59:42.094Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:54:59.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IBlWorkerService.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBlWorkerService.cs",
               "RelativeDocumentMoniker": "bl\\Api\\IBlWorkerService.cs",
@@ -176,12 +154,11 @@
               "RelativeToolTip": "bl\\Api\\IBlWorkerService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:45:16.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:45:16.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IWorkerBl.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IWorkerBl.cs",
               "RelativeDocumentMoniker": "bl\\Api\\IWorkerBl.cs",
@@ -189,25 +166,24 @@
               "RelativeToolTip": "bl\\Api\\IWorkerBl.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:21:14.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:21:14.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WorkerBl.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Services\\WorkerBl.cs",
               "RelativeDocumentMoniker": "bl\\Services\\WorkerBl.cs",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Services\\WorkerBl.cs",
               "RelativeToolTip": "bl\\Services\\WorkerBl.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwA4AAAAKAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwDwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T10:39:35.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BLWorker.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Models\\BLWorker.cs",
               "RelativeDocumentMoniker": "bl\\Models\\BLWorker.cs",
@@ -215,12 +191,11 @@
               "RelativeToolTip": "bl\\Models\\BLWorker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:38:12.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T07:38:12.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IBLProject.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBLProject.cs",
               "RelativeDocumentMoniker": "bl\\Api\\IBLProject.cs",
@@ -228,12 +203,11 @@
               "RelativeToolTip": "bl\\Api\\IBLProject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:54:26.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:54:26.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WorkersController.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Controller\\WorkersController.cs",
               "RelativeDocumentMoniker": "Server\\Controller\\WorkersController.cs",
@@ -246,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ProjectBl.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Services\\ProjectBl.cs",
               "RelativeDocumentMoniker": "bl\\Services\\ProjectBl.cs",
@@ -254,12 +228,11 @@
               "RelativeToolTip": "bl\\Services\\ProjectBl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:31:04.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:31:04.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Worker.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Models\\Worker.cs",
               "RelativeDocumentMoniker": "dal\\Models\\Worker.cs",
@@ -267,12 +240,11 @@
               "RelativeToolTip": "dal\\Models\\Worker.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAIwAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:33:11.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:33:11.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Project.cs",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\models\\Project.cs",
               "RelativeDocumentMoniker": "TeamTaskManagement\\models\\Project.cs",
@@ -280,34 +252,69 @@
               "RelativeToolTip": "TeamTaskManagement\\models\\Project.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:02:54.031Z",
+              "WhenOpened": "2025-05-06T12:02:54.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkerDal.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Services\\WorkerDal.cs",
+              "RelativeDocumentMoniker": "dal\\Services\\WorkerDal.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Services\\WorkerDal.cs",
+              "RelativeToolTip": "dal\\Services\\WorkerDal.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwDcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:49:57.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeamTaskManagement",
+              "DocumentIndex": 2,
+              "Title": "IWorkerDalService.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Api\\IWorkerDalService.cs",
+              "RelativeDocumentMoniker": "dal\\Api\\IWorkerDalService.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Api\\IWorkerDalService.cs",
+              "RelativeToolTip": "dal\\Api\\IWorkerDalService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:59:10.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:54:59.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBLProjectService.cs",
+              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBLProjectService.cs",
+              "RelativeDocumentMoniker": "bl\\Api\\IBLProjectService.cs",
+              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\Api\\IBLProjectService.cs",
+              "RelativeToolTip": "bl\\Api\\IBLProjectService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:59:42.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeamTaskManagement.csproj",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\TeamTaskManagement.csproj",
               "RelativeDocumentMoniker": "TeamTaskManagement\\TeamTaskManagement.csproj",
               "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\TeamTaskManagement\\TeamTaskManagement.csproj",
               "RelativeToolTip": "TeamTaskManagement\\TeamTaskManagement.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T11:39:31.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WorkerDal.cs",
-              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Services\\WorkerDal.cs",
-              "RelativeDocumentMoniker": "dal\\Services\\WorkerDal.cs",
-              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Services\\WorkerDal.cs",
-              "RelativeToolTip": "dal\\Services\\WorkerDal.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAzwCkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:49:57.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:39:31.281Z"
             },
             {
               "$type": "Document",
@@ -319,12 +326,11 @@
               "RelativeToolTip": "bl\\Models\\BLProject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:42:23.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:42:23.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "bl.csproj",
               "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\bl\\bl.csproj",
               "RelativeDocumentMoniker": "bl\\bl.csproj",
@@ -332,21 +338,7 @@
               "RelativeToolTip": "bl\\bl.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T08:55:29.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IWorkerDalService.cs",
-              "DocumentMoniker": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Api\\IWorkerDalService.cs",
-              "RelativeDocumentMoniker": "dal\\Api\\IWorkerDalService.cs",
-              "ToolTip": "H:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E1\u05D8\u05D0\u05D6\\TeamTaskManagement\\dal\\Api\\IWorkerDalService.cs",
-              "RelativeToolTip": "dal\\Api\\IWorkerDalService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:59:10.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:55:29.765Z"
             },
             {
               "$type": "Document",
@@ -358,8 +350,7 @@
               "RelativeToolTip": "bl\\Models\\BLTeamLeader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:38:22.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T07:38:22.315Z"
             },
             {
               "$type": "Document",
@@ -371,8 +362,7 @@
               "RelativeToolTip": "bl\\DalToBL.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:28:50.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:28:50.148Z"
             },
             {
               "$type": "Document",
@@ -444,8 +434,7 @@
               "RelativeToolTip": "dal\\dal.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T08:58:36.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:58:36.105Z"
             },
             {
               "$type": "Document",

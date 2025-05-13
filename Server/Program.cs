@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<IBlWorkerService, WorkerBl>();
-builder.Services.AddSingleton<IWorkerBl, BLWorker>(); // Corrected line
+builder.Services.AddSingleton<IWorkerBl, BLWorker>();
 var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseAuthorization();
