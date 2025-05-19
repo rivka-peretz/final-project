@@ -2845,7 +2845,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\פרץ רבקה\\.nuget\\packages\\": {},
+    "C:\\Users\\זונאבנד נחמה\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -2854,14 +2854,14 @@
       "projectUniqueName": "H:\\פרויקט סטאז\\TeamTaskManagement\\Server\\Server.csproj",
       "projectName": "Server",
       "projectPath": "H:\\פרויקט סטאז\\TeamTaskManagement\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\פרץ רבקה\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\זונאבנד נחמה\\.nuget\\packages\\",
       "outputPath": "H:\\פרויקט סטאז\\TeamTaskManagement\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\פרץ רבקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\זונאבנד נחמה\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

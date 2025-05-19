@@ -28,6 +28,11 @@ namespace dal.Services
             }
             return false;
         }
+        public bool AreThereAnyEmployeesInTheSystem()
+        {
+            if (context.Workers!=null) return true;
+            return false;
+        }
 
         public Worker CheckingWhetherAnEmployeeExists(string password)
         {
@@ -47,6 +52,11 @@ namespace dal.Services
         {
             context.Workers.Remove(worker);
             context.SaveChanges();
+        }
+         public void Addmanagement(Worker worker)
+        {
+            context.Workers.Add(worker);
+            context.SaveChanges(); 
         }
     }
 }

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using dal.Api;
 using dal.Models;
+=======
+﻿using bl.Models;
+>>>>>>> c36a81bac47abf75ca32da352e3306b4f00a12ed
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +12,11 @@ using System.Threading.Tasks;
 
 namespace dal.Services
 {
+<<<<<<< HEAD
     internal class ProjectDal:IProjectDalService
+=======
+    internal class ProjectDal
+>>>>>>> c36a81bac47abf75ca32da352e3306b4f00a12ed
     {
         dbClass context;
         public void AddProject(Project project)
