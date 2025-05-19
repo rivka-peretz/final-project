@@ -18,6 +18,10 @@ namespace dal.Services
         {
             Worker worker = CheckingWhetherAnEmployeeExists(password);
             if(worker == null) return false;
+            if ((context.Workers==null))
+            {
+                return true;
+            }
             if (worker.StatusWorker.Equals("management"))
             {
                 return true;
@@ -39,9 +43,9 @@ namespace dal.Services
             context.Workers.Add(worker);
             context.SaveChanges(); 
         }
-        public void RemoveWorker(int id )
+        public void RemoveWorker(Worker worker)
         {
-            context.Workers.Remove(CheckingByIDWhetherTheEmployeeExists(id));
+            context.Workers.Remove(worker);
             context.SaveChanges();
         }
     }

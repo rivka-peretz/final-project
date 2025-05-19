@@ -13,7 +13,7 @@ namespace Server.Controller
     {
         IBlWorkerService _IBlWorkerService;
         [HttpPost]
-        public IActionResult AddWorker([FromBody] BLWorker worker, [FromBody] string AdministratorPassword)
+        public IActionResult AddWorker([FromBody] BLWorker worker, [FromQuery] string AdministratorPassword)
         {
             if (_IBlWorkerService.AddWorker(worker, AdministratorPassword))
             {
@@ -22,7 +22,7 @@ namespace Server.Controller
             else return BadRequest("false");
         }
         [HttpDelete]
-        public IActionResult RemoveWorker([FromBody] int id, [FromBody] string AdministratorPassword)
+        public IActionResult RemoveWorker([FromQuery] int id, [FromBody] string AdministratorPassword)
         {
             if (_IBlWorkerService.RemoveWorker(id, AdministratorPassword))
             {

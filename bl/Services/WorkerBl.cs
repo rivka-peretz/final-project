@@ -38,7 +38,7 @@ namespace bl.Services
             if (!_iworkerDal.CheckingWhetherTheEmployeeIsAmanager(AdministratorPassword)) return false;
             Worker worker = _iworkerDal.CheckingByIDWhetherTheEmployeeExists(id);
             if (worker == null)return false;
-            _iworkerDal.RemoveWorker(id);
+            _iworkerDal.RemoveWorker(worker);
             return true;
         }
         public BLWorker GetWorker(int id)

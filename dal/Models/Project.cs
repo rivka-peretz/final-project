@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace bl.Models;
+namespace dal.Models;
 
 public partial class Project
 {
