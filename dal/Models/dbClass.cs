@@ -35,16 +35,21 @@ public partial class dbClass : DbContext
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.NameProject)
-                .HasMaxLength(100)
-                .IsFixedLength()
+                .HasMaxLength(50)
+                .IsUnicode(false)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("nameProject");
             entity.Property(e => e.SubmissionDate).HasColumnName("submission date");
+
+            entity.HasOne(d => d.TeamLeader).WithMany(p => p.Projects)
+                .HasForeignKey(d => d.TeamLeaderId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__projects__TeamLe__71D1E811");
         });
 
         modelBuilder.Entity<Task>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__tasks__3214EC07E1230E86");
+            entity.HasKey(e => e.Id).HasName("PK__tasks__3214EC07381C279F");
 
             entity.ToTable("tasks");
 
@@ -52,15 +57,21 @@ public partial class dbClass : DbContext
             entity.Property(e => e.ProjectId).HasColumnName("projectId");
             entity.Property(e => e.SubmissionDate).HasColumnName("submission date");
             entity.Property(e => e.Title)
-                .HasMaxLength(100)
-                .IsFixedLength()
+                .HasMaxLength(50)
+                .IsUnicode(false)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("title");
+            entity.Property(e => e.WorkerId).HasColumnName("workerId");
 
             entity.HasOne(d => d.Project).WithMany(p => p.Tasks)
                 .HasForeignKey(d => d.ProjectId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__tasks__projectId__4D94879B");
+                .HasConstraintName("FK__tasks__projectId__6FE99F9F");
+
+            entity.HasOne(d => d.Worker).WithMany(p => p.Tasks)
+                .HasForeignKey(d => d.WorkerId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__tasks__workerId__70DDC3D8");
         });
 
         modelBuilder.Entity<Worker>(entity =>
@@ -68,7 +79,7 @@ public partial class dbClass : DbContext
             entity.HasKey(e => e.Id).HasName("PK__Workers__3214EC07F52D651E");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.TeamLeaderId).HasColumnName("bossId");
+            entity.Property(e => e.BossId).HasColumnName("bossId");
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .IsFixedLength()
@@ -88,30 +99,10 @@ public partial class dbClass : DbContext
                 .IsFixedLength()
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("statusWorker");
-            entity.Property(e => e.TaskId).HasColumnName("taskId");
 
-            entity.HasOne(d => d.TeamLeader).WithMany(p => p.Workers)
-                .HasForeignKey(d => d.TeamLeaderId)
+            entity.HasOne(d => d.Boss).WithMany(p => p.InverseBoss)
+                .HasForeignKey(d => d.BossId)
                 .HasConstraintName("FK__Workers__bossId__5AEE82B9");
-
-            entity.HasMany(d => d.Tasks).WithMany(p => p.Workers)
-                .UsingEntity<Dictionary<string, object>>(
-                    "WorkersTask",
-                    r => r.HasOne<Task>().WithMany()
-                        .HasForeignKey("TaskId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Workers_T__task___5165187F"),
-                    l => l.HasOne<Worker>().WithMany()
-                        .HasForeignKey("WorkerId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Workers_T__worke__5070F446"),
-                    j =>
-                    {
-                        j.HasKey("WorkerId", "TaskId").HasName("PK__Workers___16D9B5A68EC44F38");
-                        j.ToTable("Workers_Tasks");
-                        j.IndexerProperty<int>("WorkerId").HasColumnName("worker_Id");
-                        j.IndexerProperty<int>("TaskId").HasColumnName("task_Id");
-                    });
         });
 
         OnModelCreatingPartial(modelBuilder);

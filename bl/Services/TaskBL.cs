@@ -1,14 +1,16 @@
-﻿using bl.Models;
+﻿using bl.Api;
 using dal.Api;
+using dal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task = dal.Models.Task;//לבדוק...
 
 namespace bl.Services
 {
-    internal class TaskBL : IBLTaskService
+    public class TaskBL : IBLTaskService
     {
         ITaskDALService _ItaskDAL;
         IProjectDalService _IprojectDAL;
@@ -17,8 +19,8 @@ namespace bl.Services
         public bool DeleteTask(string nameProject, string nameTask, string AdministratorPassword)
         {
             if (!_IworkerDAL.CheckingWhetherTheEmployeeIsAmanager(AdministratorPassword)) return false;
-            BLProject project = _IprojectDAL.SearchForAProjectByName(nameProject);
-            BLTask task = _ItaskDAL.SearchForATaskByName(nameTask);
+           Project project = _IprojectDAL.SearchForAProjectByName(nameProject);
+           Task task = _ItaskDAL.SearchForATaskByName(nameTask);
             if (task == null) return false;
             if (project == null) return false;
             _ItaskDAL.RemoveTask(task);

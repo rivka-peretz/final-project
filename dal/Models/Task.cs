@@ -13,7 +13,9 @@ public partial class Task
 
     public DateOnly SubmissionDate { get; set; }
 
+    public int WorkerId { get; set; }
+
     public virtual Project Project { get; set; } = null!;
 
-    public virtual ICollection<Worker> Workers { get; set; } = new List<Worker>();
+    public virtual Worker Worker { get; set; } = null!;
 }

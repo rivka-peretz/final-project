@@ -11,17 +11,17 @@ public partial class Worker
 
     public string Password { get; set; } = null!;
 
-    public int TaskId { get; set; }
-
     public string Email { get; set; } = null!;
 
     public string StatusWorker { get; set; } = null!;
 
-    public int? TeamLeaderId { get; set; }
+    public int? BossId { get; set; }
 
-    public virtual Worker? TeamLeader { get; set; }
+    public virtual Worker? Boss { get; set; }
 
-    public virtual ICollection<Worker> Workers { get; set; } = new List<Worker>();
+    public virtual ICollection<Worker> InverseBoss { get; set; } = new List<Worker>();
+
+    public virtual ICollection<Project> Projects { get; set; } = new List<Project>();
 
     public virtual ICollection<Task> Tasks { get; set; } = new List<Task>();
 }

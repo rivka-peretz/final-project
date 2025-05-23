@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace bl.Api
 {
-    internal interface IBLTaskService
+    public interface IBLTaskService
     {
+        public bool DeleteTask(string nameProject, string nameTask, string AdministratorPassword);
+        public bool AddTask();
+
+
     }
 }

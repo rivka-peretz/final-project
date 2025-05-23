@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task = dal.Models.Task;//לבדוק אם זה מתאים לשים את זה פה.
+
 
 
 namespace dal.Services

@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 ﻿using dal.Api;
 using dal.Models;
-=======
-﻿using bl.Models;
->>>>>>> c36a81bac47abf75ca32da352e3306b4f00a12ed
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,31 +8,53 @@ using System.Threading.Tasks;
 
 namespace dal.Services
 {
-<<<<<<< HEAD
-    internal class ProjectDal:IProjectDalService
-=======
-    internal class ProjectDal
->>>>>>> c36a81bac47abf75ca32da352e3306b4f00a12ed
+    public class ProjectDal:IProjectDalService
     {
-        dbClass context;
+        private readonly dbClass context;
+
+        public ProjectDal(dbClass dbContext)
+        {
+            context = dbContext;
+        }
+
         public void AddProject(Project project)
         {
             context.Projects.Add(project);
             context.SaveChanges();
         }
-        public void RemoveProject(Project project) {
+
+        public void RemoveProject(Project project)
+        {
             context.Projects.Remove(project);
             context.SaveChanges();
         }
+
         public Project SearchForAProjectByName(string name)
         {
             return context.Projects.FirstOrDefault(p => p.NameProject == name);
         }
-        //public List<Project> GetAllTasks()
+
+
+        public List<Project> GetAllCurrentProjects()
+        {
+            try
+            {
+                return context.Projects
+                    .Where(p => p.SubmissionDate > DateOnly.FromDateTime(DateTime.Now))
+                    .ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error retrieving current projects", ex);
+            }
+        }
+
+
+        //public List<Task> GetAllTasks()
         //{
         //    return context.Projects.Tasks.ToList();
         //}
-
-
     }
 }
+
+

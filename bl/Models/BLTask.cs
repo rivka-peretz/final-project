@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bl.Models
 {
-    internal class BLTask
+    public class BLTask
     {
         public int Id { get; set; }
 

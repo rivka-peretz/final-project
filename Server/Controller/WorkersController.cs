@@ -12,28 +12,47 @@ namespace Server.Controller
     public class WorkersController : ControllerBase
     {
         IBlWorkerService _IBlWorkerService;
-        [HttpPost]
-        public IActionResult AddWorker([FromBody] BLWorker worker, [FromQuery] string AdministratorPassword)
+        public WorkersController(IBlWorkerService blWorkerService)
         {
-            if (_IBlWorkerService.AddWorker(worker, AdministratorPassword))
+            _IBlWorkerService = blWorkerService;
+        }
+        
+        
+        [HttpPost]
+        public IActionResult AddWorker([FromBody] BLWorker worker, [FromQuery] int teamLeaderId)
+        {
+            if (_IBlWorkerService.AddWorker(worker, teamLeaderId))
             {
                 return Ok("true");
             }
             else return BadRequest("false");
         }
+        [HttpPost("AddManagement")] 
+        public IActionResult AddManagement([FromBody] BLWorker worker)
+        {
+            if (_IBlWorkerService.Addmanagement(worker))
+            {
+                return Ok("true");
+            }
+            else return BadRequest("false");
+        }
+
         [HttpDelete]
         public IActionResult RemoveWorker([FromQuery] int id, [FromBody] string AdministratorPassword)
         {
-            if (_IBlWorkerService.RemoveWorker(id, AdministratorPassword))
+            if (_IBlWorkerService.RemoveWorker(id))
             {
                 return Ok("true");
             }
             else return BadRequest("false");
         }
+
         [HttpGet]
         public BLWorker GetWorker(int id)
         {
             return _IBlWorkerService.GetWorker(id);
         }
+      
+
     }
 }

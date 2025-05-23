@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 
 namespace bl.Models
 {
-    internal class BLProject
+    public class BLProject 
     {
         public int Id { get; set; }
 
         public string? NameProject { get; set; }
 
         public DateOnly SubmissionDate { get; set; }
-        public  List<IBLTask> Tasks { get; set; }
+        public List<BLTask> Tasks { get; set; }
+        public BLProject(int id, string name, DateOnly submissionDate)
+        {
+            Id = id;
+            NameProject = name;
+            SubmissionDate = submissionDate;
+        }
 
 
     }

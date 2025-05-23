@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using dal.Models;
 
 namespace bl
 {
     internal class DalToBL
     {
-        public BLWorker WorkerBlToDal(Worker  worker)
+        public BLWorker WorkerBlToDal(Worker worker)
         {
             BLWorker worker1 = new BLWorker();
             worker1.Email = worker.Email;
