@@ -4735,23 +4735,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\פרץ רבקה\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\פרויקט סטאז\\TeamTaskManagement\\dal\\dal.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\‏‏תיקיה חדשה\\final-project\\dal\\dal.csproj",
       "projectName": "dal",
-      "projectPath": "H:\\פרויקט סטאז\\TeamTaskManagement\\dal\\dal.csproj",
-      "packagesPath": "C:\\Users\\פרץ רבקה\\.nuget\\packages\\",
-      "outputPath": "H:\\פרויקט סטאז\\TeamTaskManagement\\dal\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\‏‏תיקיה חדשה\\final-project\\dal\\dal.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\‏‏תיקיה חדשה\\final-project\\dal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\פרץ רבקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4778,7 +4778,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -4821,7 +4822,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

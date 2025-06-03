@@ -48,11 +48,19 @@ namespace Server.Controller
         }
 
         [HttpGet]
-        public BLWorker GetWorker(int id)
+        //public BLWorker GetWorker(int id)
+        //{
+        //    return _IBlWorkerService.GetWorker(id);
+        //}
+        
+        public IActionResult GetWorker(int id)
         {
-            return _IBlWorkerService.GetWorker(id);
+            var worker = _IBlWorkerService.GetWorker(id);
+            if (worker == null)
+                return NotFound("Worker not found");
+            return Ok(worker);
         }
-      
+
 
     }
 }

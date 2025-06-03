@@ -1,13 +1,1 @@
-{
-  "profiles": {
-    "bl": {
-      "commandName": "Project"
-    },
-    "Profile 1": {
-      "commandName": "Project"
-    },
-    "Profile 2": {
-      "commandName": "Project"
-    }
-  }
-}
+{}
