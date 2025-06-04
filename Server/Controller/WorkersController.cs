@@ -38,7 +38,7 @@ namespace Server.Controller
         }
 
         [HttpDelete]
-        public IActionResult RemoveWorker([FromQuery] int id, [FromBody] string AdministratorPassword)
+        public IActionResult RemoveWorker([FromQuery] int id)
         {
             if (_IBlWorkerService.RemoveWorker(id))
             {
@@ -53,7 +53,7 @@ namespace Server.Controller
         //    return _IBlWorkerService.GetWorker(id);
         //}
         
-        public IActionResult GetWorker(int id)
+        public IActionResult GetWorker([FromQuery] int id)
         {
             var worker = _IBlWorkerService.GetWorker(id);
             if (worker == null)

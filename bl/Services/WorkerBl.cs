@@ -15,10 +15,10 @@ namespace bl.Services
             _iworkerDal = iworkerDal;
         }
 
-        public bool AddWorker(BLWorker worker, int TeamLeaderId)
+        public bool AddWorker(BLWorker worker, int BossId)
         {
             // צריך להוסיף מה יקרה אם הוא ראש צוות
-            if (!_iworkerDal.IsITTeamLeader(TeamLeaderId)) return false;
+            if (!_iworkerDal.IsITBoss(BossId)) return false;
             if (_iworkerDal.CheckingWhetherAnEmployeeExists(worker.Password) != null) return false;
             if (worker.Id.ToString().Length > 9) return false;
             if (string.IsNullOrWhiteSpace(worker.Name)) return false;
@@ -36,7 +36,7 @@ namespace bl.Services
                 BossId = worker.BossId
             };
 
-            _iworkerDal.AddWorker(workerDAL, TeamLeaderId);
+            _iworkerDal.AddWorker(workerDAL, BossId);
             return true;
         }
 

@@ -61,13 +61,14 @@ namespace dal.Services
         public void Addmanagement(Worker worker)
         {
             context.Workers.Add(worker);
+            context.SaveChanges();
         }
 
-        public bool IsITTeamLeader(int Id)
+        public bool IsITBoss(int Id)
         {
            Worker worker = context.Workers.FirstOrDefault(w => w.Id == Id);
             if (worker == null) return false;
-            return worker.StatusWorker.Equals("TeamLeader") || worker.StatusWorker.Equals("management");
+            return worker.StatusWorker.Equals("TeamLeader") || worker.StatusWorker.Equals("Management");
         }
     }
 }

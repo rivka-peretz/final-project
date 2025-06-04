@@ -16,6 +16,6 @@ namespace dal.Api
         public void Addmanagement(Worker worker);
         public Worker CheckingByIDWhetherTheEmployeeExists(int id);
         public void RemoveWorker(Worker worker);
-        public bool IsITTeamLeader(int Id);
+        public bool IsITBoss(int Id);
     }
 }
